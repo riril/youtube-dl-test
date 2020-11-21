@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+    <channel>
+        <title><![CDATA[{{ title or '无标题' }}]]></title>
+        <link>{{ link or 'https://youtube.com' }}</link>
+        <description><![CDATA[{{ description or title }} ]]></description>
+        <generator>RSSHub</generator>
+        <webMaster>lengthmin@gmail.com (Artin)</webMaster>
+        <itunes:author>{{ itunes_author}}</itunes:author>
+        <itunes:category text="{{ itunes_category }}"/>
+        <language>{{ language or 'zh-cn' }}</language>
+        {% if image -%}
+        <image>
+            <url>{{ image }}</url>
+            <title><![CDATA[{{ title or '无标题图片' }}]]></title>
+            <link>{{ link }}</link>
+        </image>
+        {%- endif %}
+        <lastBuildDate>{{ lastBuildDate }}</lastBuildDate>
+        <ttl>{{ ttl }}</ttl>
+        {% for value in items -%}
+        <item>
+            <title><![CDATA[{{ value.title }}]]></title>
+            <description><![CDATA[{{ value.description or value.title }}]]></description>
+            {% if value.pubDate -%}
+            <pubDate>{{ value.pubDate }}</pubDate>
+            {%- endif %}
+            <guid isPermaLink="false">{{ value.guid or value.link or value.title }}</guid>
+            <link>{{ value.link }}</link>
+            {% if value.itunes_item_image -%}
+            <itunes:image href="{{ value.itunes_item_image }}"/>
+            {%- endif %}
+            {% if value.enclosure_url -%}
+            <enclosure url="{{ value.enclosure_url }}" {% if value.enclosure_length -%} length="{{ value.enclosure_length }}" {%- endif %} {% if value.enclosure_type -%} type="{{ value.enclosure_type }}" {%- endif %} />
+            {%- endif %}
+            {% if itunes_author and value.itunes_duration -%}
+            <itunes:duration>{{ value.itunes_duration }}</itunes:duration>
+            {%- endif %}
+            {% if value.author -%}
+            <author><![CDATA[{{ value.author }}]]></author>
+            {%- endif %}
+            {% if value.category is string -%}
+            <category>{{ value.category }}</category>
+            {%- else -%}
+                {%- for c in value.category -%}
+                    <category>{{ c }}</category>
+                {%- endfor -%}
+            {%- endif %}
+        </item>
+        {%- endfor %}
+    </channel>
+</rss>
