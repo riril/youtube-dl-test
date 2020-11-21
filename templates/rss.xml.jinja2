@@ -2,13 +2,13 @@
 <rss  xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
     <channel>
         <title><![CDATA[{{ title or '无标题' }}]]></title>
-        <link>{{ link or 'https://youtube.com' }}</link>
+        <link>{{ link or 'https://youtube.com'|e }}</link>
         <description><![CDATA[{{ description or title }} ]]></description>
         <generator>RSSHub</generator>
         <webMaster>lengthmin@gmail.com (Artin)</webMaster>
         <itunes:author>{{ itunes_author}}</itunes:author>
-        <itunes:category text="{{ itunes_category }}"/>
-        <language>{{ language or 'zh-cn' }}</language>
+        <itunes:category text="{{ itunes_category|e }}"/>
+        <language>{{ language or 'zh-cn'|e }}</language>
         {% if image -%}
         <image>
             <url>{{ image }}</url>
@@ -25,8 +25,8 @@
             {% if value.pubDate -%}
             <pubDate>{{ value.pubDate }}</pubDate>
             {%- endif %}
-            <guid isPermaLink="false">{{ value.guid or value.link or value.title }}</guid>
-            <link>{{ value.link }}</link>
+            <guid isPermaLink="false">{{ value.guid or value.link or value.title|e }}</guid>
+            <link>{{ value.link|e }}</link>
             {% if value.itunes_item_image -%}
             <itunes:image href="{{ value.itunes_item_image }}"/>
             {%- endif %}
@@ -40,10 +40,10 @@
             <author><![CDATA[{{ value.author }}]]></author>
             {%- endif %}
             {% if value.category is string -%}
-            <category>{{ value.category }}</category>
+            <category>{{ value.category|e }}</category>
             {%- else -%}
                 {%- for c in value.category -%}
-                    <category>{{ c }}</category>
+                    <category>{{ c|e }}</category>
                 {%- endfor -%}
             {%- endif %}
         </item>

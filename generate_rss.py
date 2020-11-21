@@ -7,7 +7,7 @@ from jinja2 import Template
 template_text = (Path(".") / "templates" / "rss.xml.jinja2").read_text(encoding="utf-8")
 
 
-def operation(enclosure_url_prefix="downloads/"):
+def operation(enclosure_url_prefix="downloads/", generate_rss_filename="rss.xml"):
     is_first_episode = True
     result = {"items": []}
 
@@ -44,11 +44,12 @@ def operation(enclosure_url_prefix="downloads/"):
     template = Template(template_text)
     rss = template.render(**result)
     with open(
-        f"1.xml",
+        generate_rss_filename,
         "w",
         encoding="utf-8",
     ) as f:
         f.write(str(rss))
 
 
-operation()
+if __name__ == "__main__":
+    operation()

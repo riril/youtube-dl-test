@@ -46,10 +46,10 @@
             <guid isPermaLink="false">https://www.youtube.com/watch?v=7dS8y7_MDoc</guid>
             <link>https://www.youtube.com/watch?v=7dS8y7_MDoc</link>
             <itunes:image href="https://i.ytimg.com/vi_webp/7dS8y7_MDoc/maxresdefault.webp"/>
-            <enclosure url="https://raw.githubusercontent.com/riril/youtube-dl-test/main/downloads/7dS8y7_MDoc.m4a" length="2694" type="audio/x-m4a" />
+            <enclosure url="http://localhost:5000/downloads/7dS8y7_MDoc.m4a" length="2694" type="audio/x-m4a" />
             <itunes:duration>44:54</itunes:duration>
             
-            <category>News & Politics</category>
+            <category>News &amp; Politics</category>
         </item><item>
             <title><![CDATA['20.11.11【觀點│楊永明看世界】亞美尼亞悲劇給台灣的啟示]]></title>
             <description><![CDATA[主持人：台灣大學政治學系兼任教授 楊永明
@@ -80,10 +80,10 @@
             <guid isPermaLink="false">https://www.youtube.com/watch?v=Fs9JwaX_p54</guid>
             <link>https://www.youtube.com/watch?v=Fs9JwaX_p54</link>
             <itunes:image href="https://i.ytimg.com/vi_webp/Fs9JwaX_p54/maxresdefault.webp"/>
-            <enclosure url="https://raw.githubusercontent.com/riril/youtube-dl-test/main/downloads/Fs9JwaX_p54.m4a" length="2671" type="audio/x-m4a" />
+            <enclosure url="http://localhost:5000/downloads/Fs9JwaX_p54.m4a" length="2671" type="audio/x-m4a" />
             <itunes:duration>44:31</itunes:duration>
             
-            <category>News & Politics</category>
+            <category>News &amp; Politics</category>
         </item><item>
             <title><![CDATA['20.11.18【觀點│楊永明看世界】RCEP：中國經貿朋友圈]]></title>
             <description><![CDATA[主持人：台灣大學政治學系兼任教授 楊永明
@@ -115,10 +115,10 @@
             <guid isPermaLink="false">https://www.youtube.com/watch?v=GRb1KFYVXWU</guid>
             <link>https://www.youtube.com/watch?v=GRb1KFYVXWU</link>
             <itunes:image href="https://i.ytimg.com/vi/GRb1KFYVXWU/maxresdefault.jpg"/>
-            <enclosure url="https://raw.githubusercontent.com/riril/youtube-dl-test/main/downloads/GRb1KFYVXWU.m4a" length="2596" type="audio/x-m4a" />
+            <enclosure url="http://localhost:5000/downloads/GRb1KFYVXWU.m4a" length="2596" type="audio/x-m4a" />
             <itunes:duration>43:16</itunes:duration>
             
-            <category>News & Politics</category>
+            <category>News &amp; Politics</category>
         </item><item>
             <title><![CDATA['20.11.12【觀點│楊永明看世界】距離與質疑：拜登的中美關係！]]></title>
             <description><![CDATA[主持人：台灣大學政治學系兼任教授 楊永明
@@ -137,10 +137,10 @@
             <guid isPermaLink="false">https://www.youtube.com/watch?v=TiQ5ZU0NgN8</guid>
             <link>https://www.youtube.com/watch?v=TiQ5ZU0NgN8</link>
             <itunes:image href="https://i.ytimg.com/vi/TiQ5ZU0NgN8/maxresdefault.jpg?v=5fadd2ff"/>
-            <enclosure url="https://raw.githubusercontent.com/riril/youtube-dl-test/main/downloads/TiQ5ZU0NgN8.m4a" length="2377" type="audio/x-m4a" />
+            <enclosure url="http://localhost:5000/downloads/TiQ5ZU0NgN8.m4a" length="2377" type="audio/x-m4a" />
             <itunes:duration>39:37</itunes:duration>
             
-            <category>News & Politics</category>
+            <category>News &amp; Politics</category>
         </item><item>
             <title><![CDATA['20.11.04【觀點│楊永明時間】美國大選開票、法國尼斯恐攻]]></title>
             <description><![CDATA[主持人：台灣大學政治學系兼任教授 楊永明
@@ -172,10 +172,10 @@
             <guid isPermaLink="false">https://www.youtube.com/watch?v=WjGkMdjuWn4</guid>
             <link>https://www.youtube.com/watch?v=WjGkMdjuWn4</link>
             <itunes:image href="https://i.ytimg.com/vi_webp/WjGkMdjuWn4/maxresdefault.webp"/>
-            <enclosure url="https://raw.githubusercontent.com/riril/youtube-dl-test/main/downloads/WjGkMdjuWn4.m4a" length="2564" type="audio/x-m4a" />
+            <enclosure url="http://localhost:5000/downloads/WjGkMdjuWn4.m4a" length="2564" type="audio/x-m4a" />
             <itunes:duration>42:44</itunes:duration>
             
-            <category>News & Politics</category>
+            <category>News &amp; Politics</category>
         </item><item>
             <title><![CDATA['20.11.19【觀點│楊永明看世界】RCEP成熟時、兩岸攤牌時]]></title>
             <description><![CDATA[主持人：台灣大學政治學系兼任教授 楊永明
@@ -194,10 +194,10 @@
             <guid isPermaLink="false">https://www.youtube.com/watch?v=_W7U04FtTPA</guid>
             <link>https://www.youtube.com/watch?v=_W7U04FtTPA</link>
             <itunes:image href="https://i.ytimg.com/vi/_W7U04FtTPA/maxresdefault.jpg?v=5fb5eb7a"/>
-            <enclosure url="https://raw.githubusercontent.com/riril/youtube-dl-test/main/downloads/_W7U04FtTPA.m4a" length="2287" type="audio/x-m4a" />
+            <enclosure url="http://localhost:5000/downloads/_W7U04FtTPA.m4a" length="2287" type="audio/x-m4a" />
             <itunes:duration>38:07</itunes:duration>
             
-            <category>News & Politics</category>
+            <category>News &amp; Politics</category>
         </item>
     </channel>
 </rss>
